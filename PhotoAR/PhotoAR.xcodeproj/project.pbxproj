@@ -16,6 +16,7 @@
 		3064696A26AB767B00975DE0 /* PhotoARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3064696926AB767B00975DE0 /* PhotoARTests.swift */; };
 		3064697526AB767B00975DE0 /* PhotoARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3064697426AB767B00975DE0 /* PhotoARUITests.swift */; };
 		3064698326AB772F00975DE0 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3064698226AB772F00975DE0 /* Grid.swift */; };
+		CE743D7B26AD089000E26650 /* SelectImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE743D7A26AD089000E26650 /* SelectImageVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		3064697426AB767B00975DE0 /* PhotoARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoARUITests.swift; sourceTree = "<group>"; };
 		3064697626AB767B00975DE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3064698226AB772F00975DE0 /* Grid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
+		CE743D7A26AD089000E26650 /* SelectImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectImageVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				3064695226AB767800975DE0 /* AppDelegate.swift */,
+				CE743D7A26AD089000E26650 /* SelectImageVC.swift */,
 				3064695426AB767800975DE0 /* ViewController.swift */,
 				3064695626AB767800975DE0 /* Experience.rcproject */,
 				3064695826AB767800975DE0 /* Main.storyboard */,
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE743D7B26AD089000E26650 /* SelectImageVC.swift in Sources */,
 				3064695526AB767800975DE0 /* ViewController.swift in Sources */,
 				3064695326AB767800975DE0 /* AppDelegate.swift in Sources */,
 				3064695726AB767800975DE0 /* Experience.rcproject in Sources */,
@@ -441,13 +445,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N8P3Q4V6VQ;
+				DEVELOPMENT_TEAM = L7EW4Q76QJ;
 				INFOPLIST_FILE = PhotoAR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = SageRen.PhotoAR;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericsolberg.PhotoAR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -460,13 +464,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = N8P3Q4V6VQ;
+				DEVELOPMENT_TEAM = L7EW4Q76QJ;
 				INFOPLIST_FILE = PhotoAR/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = SageRen.PhotoAR;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericsolberg.PhotoAR;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
